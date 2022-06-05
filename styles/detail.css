@@ -1,4 +1,44 @@
+article {
+    margin-top: 10%;
+    margin-bottom: 6%;
+    height: 1000px;
+}
+
+article .container {
+    display: flex;
+    /* border: 2px solid black; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 480px;
+}
+
 article img {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 60%;
+    z-index: -1;
+}
+
+article .img-part {
+    /* margin-top: 2%; */
+    margin-left: 2%;
+    /* margin-right: 4%; */
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article .desc-part {
+    margin-right: 2%;
+    /* margin-left: 4%; */
+    border: 1px solid black;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -17,23 +17,32 @@
         </nav>
     </header>
     <article>
-        <div>
-            <a href="detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" />
-            </a>
-            <div>
-                <form action="payment.html" method="get">
-                    <label for="adult">Adults:</label>
-                    <input type="number" name="adult" id="adult" min="1" required /><br />
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" required /><br />
-                    <label for="from">From Date:</label>
-                    <input type="date" name="fromdate" id="fromdate" required /><br />
-                    <label for="todate">To Date:</label>
-                    <input type="date" name="todate" id="todate" required /><br />
-                    <label for="total">Total:</label>
-                    <input type="text" name="total" id="total" readonly /><br />
-                    <input type="submit" value="Book Now" />
-                </form>
+        <div class="container">
+            <div class="img-part">
+                <a href="detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" />
+                </a>
+            </div>
+            <div class="desc-part">
+                <div class="payment">
+                    <form action="payment.html">
+                        <label for="num">Adults:</label>
+                        <input type="number" name="num" id="num" min="1">
+                        <br>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+                        <label for="Adate">From Date: </label>
+                        <input type="date" name="Adate" id="Adate" required>
+                        <br>
+                        <label for="Ddate">From Date: </label>
+                        <input type="date" name="Ddate" id="Ddate" required>
+                        <br>
+                        <label for="total">Total:</label>
+                        <input type="text" id="total" name="total" readonly>
+                        <br>
+                        <button class="btn btn-success" style="width: 100px;">Book Now</button>
+                    </form>
+                </div>
             </div>
             <div>
                 <h2>Radisson Blu Hotel</h2>
