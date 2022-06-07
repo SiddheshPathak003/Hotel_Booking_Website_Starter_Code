@@ -7,16 +7,16 @@ body {
 }
 
 header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav {
     background-color: rosybrown;
     display: flex;
     align-items: center;
     z-index: 2;
-}
-
-header nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 header .anchor {
