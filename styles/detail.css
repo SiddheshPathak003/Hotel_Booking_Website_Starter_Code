@@ -18,6 +18,17 @@ article img {
     z-index: -1;
 }
 
+article .desc-part {
+    margin-right: 2%;
+    /* margin-left: 4%; */
+    border: 1px solid black;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 article .img-part {
     /* margin-top: 2%; */
     margin-left: 2%;
@@ -30,15 +41,4 @@ article .img-part {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-article .desc-part {
-    margin-right: 2%;
-    /* margin-left: 4%; */
-    border: 1px solid black;
-    height: 100%;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
